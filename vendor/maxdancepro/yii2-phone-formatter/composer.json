@@ -1,0 +1,29 @@
+{
+    "name": "maxdancepro/yii2-phone-formatter",
+    "description": "Phone numbers formatter and behavior for Yii2 Framework",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," maxdancepro","phone-formatter"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maksim Vorozhtsov",
+            "email": "myks1992@mail.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "maxdancepro\\phoneFormatter\\": "src/"
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
+
+
