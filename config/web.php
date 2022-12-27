@@ -4,10 +4,10 @@ $params = require __DIR__ . '/params.php';
 $db = require __DIR__ . '/db.php';
 
 $config = [
-    'id' => 'ReBaseCRM',
+    'id' => 'ReBaseCRM v1.0',
     'language'=>'ru-RU',
     'timeZone' => 'Europe/Moscow',
-    'name' => 'ReBaseCRM',
+    'name' => 'ReBaseCRM v1.0',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'aliases' => [
@@ -118,7 +118,7 @@ $config = [
     'container' => [
         'definitions' => [
             'corpsepk\DaData\SuggestionsWidget' => [
-                'token' => '643fa8d6eea841cd698e05e7bae37f3d1af8795f',
+                'token' => 'you token',
             ],
         ],
     ],

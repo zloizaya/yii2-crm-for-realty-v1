@@ -2,9 +2,9 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=f73613ai.beget.tech;dbname=f73613ai_rebcrm',
-    'username' => 'f73613ai_rebcrm',
-    'password' => 'VXa2Ot*q',
+    'dsn' => 'mysql:host=localhost;dbname=name',
+    'username' => 'root',
+    'password' => '',
     'charset' => 'utf8',
     'tablePrefix' => 'reb_',
 

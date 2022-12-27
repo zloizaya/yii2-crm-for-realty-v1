@@ -21,7 +21,7 @@ $street = '';
 $house = '';
 
 $script = <<< JS
-var token = "643fa8d6eea841cd698e05e7bae37f3d1af8795f";
+var token = "you token";
 
 var type  = "ADDRESS";
 let $region = $("#region");
@@ -133,7 +133,7 @@ $this->registerJs($script, $position);
             </div>
             <div class="col-md-3">
                 <div class="form-group">
-                    <?= $form->field($model, 'agent')->widget(Select2::classname(), [ 
+                    <?= $form->field($model, 'owner')->widget(Select2::classname(), [ 
                         'data' => ArrayHelper::map(Base::getAgents(), 'id', 'full_name'),
                         'language' => 'ru',
                         'options' => ['placeholder' => 'Агент...'],
