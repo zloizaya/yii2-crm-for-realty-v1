@@ -2,7 +2,7 @@
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
     </a>
-    <h1 align="center">ReBaseCRM v. 0.1.0 (не готова!!!)</h1>
+    <h1 align="center">ReBaseCRM v. 0.1.0 (не готова!!! проект заброшен. Выпущена новая версия v2.0)</h1>
     <br>
 </p>
 
@@ -20,11 +20,6 @@ CRM система для управления объектами недвижи
     <li>Клиенты</li>
     <li>Пользователи</li>
 </ul>
-
-Демо:
-http://dev.rebasecrm.ru
-admin@rebcrm.loc
-asd123
 
 
 DIRECTORY STRUCTURE
